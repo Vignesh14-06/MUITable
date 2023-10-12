@@ -1,0 +1,59 @@
+.button1 {
+  background-color: #5271ff !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  width: 250px !important;
+  padding: 17px 16px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #ffffff !important;
+  border-color: #5271ff !important;
+  font-size: 18px !important;
+  margin-right: 49px !important;
+  margin-top: 37px !important;
+}
+
+.typo {
+  color: var(--light-grayscale-100, #1c1c1c) !important;
+  font-feature-settings: "clig" off, "liga" off !important;
+  font-family: Avenir !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+  line-height: 28px !important; /* 100% */
+  margin-left: 50px !important;
+  margin-top: 53px !important;
+}
+.main {
+  margin: 40px 40px 40px 40px !important;
+  border-radius: 8px;
+  border: 1px solid #e2e4e5;
+  background: var(--light-background-primary, #fff);
+}
+.selectAction {
+  display: flex !important;
+  gap: 8px !important;
+  justify-content: flex-start !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--light-grayscale-400, #e8e8e8) !important;
+  background: var(--light-background-primary, #fff) !important;
+  /* Light/Drop Shadow/1 */
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.06) !important;
+  margin-left: 50px !important;
+  margin-top: 33px !important;
+  max-width: 100px !important;
+  max-height: 40px !important;
+}
+
+.textsss {
+  width: 424px !important;
+  padding: 0px, 32px, 0px, 0px !important;
+  border-radius: 8px !important;
+  border: 1px !important;
+  
+}
+.MuiInputBase-root{
+  height: 40px !important;
+}
+

@@ -1,0 +1,324 @@
+{
+  "employeeDetail": [
+    {
+      "firstName": "Marisa",
+      "lastName": "Jast",
+      "empId": "LT-001",
+      "role": "Frontend Developer",
+      "emailId": "MarisaJast@gmail.com",
+      "joiningDate": "31/03/1983"
+    },
+    {
+      "firstName": "Nichole",
+      "lastName": "Green",
+      "empId": "LT-002",
+      "role": "Backend Developer",
+      "emailId": "NicholeGreen@gmail.com",
+      "joiningDate": "31/03/1993"
+    },
+    {
+      "firstName": "Marques",
+      "lastName": "Leannon",
+      "empId": "LT-003",
+      "role": "FullStack Developer",
+      "emailId": "MarquesLeannon@gmail.com",
+      "joiningDate": "31/03/2001"
+    },
+    {
+      "firstName": "Alicia",
+      "lastName": "Gulgowski",
+      "empId": "LT-004",
+      "role": "Software Developer",
+      "emailId": "AliciaGulgowski@gmail.com",
+      "joiningDate": "31/03/2011"
+    },
+    {
+      "firstName": "Bessie",
+      "lastName": "Bins",
+      "empId": "LT-005",
+      "role": "Team Lead",
+      "emailId": "BessieBins@gmail.com",
+      "joiningDate": "31/03/2015"
+    },
+    {
+      "firstName": "Maximillia",
+      "lastName": "Windler",
+      "empId": "LT-006",
+      "role": "CEO",
+      "emailId": "MaximilliaWindler@gmail.com",
+      "joiningDate": "31/03/2018"
+    },
+    {
+      "firstName": "Oral",
+      "lastName": "Rice",
+      "empId": "LT-007",
+      "role": "Software Developer",
+      "emailId": "OralRice@gmail.com",
+      "joiningDate": "31/03/2019"
+    },
+    {
+      "firstName": "Lora",
+      "lastName": "Gulgowski",
+      "empId": "LT-008",
+      "role": "Frontend Developer",
+      "emailId": "LoraGulgowski@gmail.com",
+      "joiningDate": "31/03/2020"
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Lind",
+      "empId": "LT-009",
+      "role": "Backend Developer",
+      "emailId": "SteveLind@gmail.com",
+      "joiningDate": "31/04/2020"
+    },
+    {
+      "firstName": "Magnolia",
+      "lastName": "Auer",
+      "empId": "LT-010",
+      "role": "Mern Developer",
+      "emailId": "MagnoliaAuer@gmail.com",
+      "joiningDate": "31/05/2020"
+    },
+    {
+      "firstName": "Melba",
+      "lastName": "Schneider",
+      "empId": "LT-011",
+      "role": "Software Developer",
+      "emailId": "MelbaSchneider@gmail.com",
+      "joiningDate": "31/06/2020"
+    },
+    {
+      "firstName": "Roxane",
+      "lastName": "Cassin",
+      "empId": "LT-012",
+      "role": "CEO",
+      "emailId": "RoxaneCassin@gmail.com",
+      "joiningDate": "31/07/2020"
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Marvin",
+      "empId": "LT-013",
+      "role": "Bussiness Analyst",
+      "emailId": "RodrigoMarvin@gmail.com",
+      "joiningDate": "31/09/2020"
+    },
+    {
+      "firstName": "Jewell",
+      "lastName": "Jakubowski",
+      "empId": "LT-014",
+      "role": "Managing Director",
+      "emailId": "JewellJakubowski@gmail.com",
+      "joiningDate": "31/11/2020"
+    },
+    {
+      "firstName": "Tiana",
+      "lastName": "Franecki",
+      "empId": "LT-015",
+      "role": "Frontend Developer",
+      "emailId": "TianaFranecki@gmail.com",
+      "joiningDate": "31/03/2021"
+    },
+    {
+      "firstName": "Mossie",
+      "lastName": "Herman",
+      "empId": "LT-016",
+      "role": "Backend Developer",
+      "emailId": "MossieHerman@gmail.com",
+      "joiningDate": "31/04/2021"
+    },
+    {
+      "firstName": "Javon",
+      "lastName": "Gulgowski",
+      "empId": "LT-017",
+      "role": "Testing Engineer",
+      "emailId": "JavonGulgowski@gmail.com",
+      "joiningDate": "31/05/2021"
+    },
+    {
+      "firstName": "Arely",
+      "lastName": "Schamberger",
+      "empId": "LT-018",
+      "role": "Devops Engineer",
+      "emailId": "ArelySchamberger@gmail.com",
+      "joiningDate": "31/06/2021"
+    },
+    {
+      "firstName": "Roma",
+      "lastName": "Heathcote",
+      "empId": "LT-019",
+      "role": "System Emgineer",
+      "emailId": "RomaHeathcote@gmail.com",
+      "joiningDate": "31/07/2021"
+    },
+    {
+      "firstName": "Angie",
+      "lastName": "Bednar",
+      "empId": "LT-020",
+      "role": "CEO",
+      "emailId": "AngieBednar@gmail.com",
+      "joiningDate": "31/08/2021"
+    },
+    {
+      "firstName": "Gerald",
+      "lastName": "Zboncak",
+      "empId": "LT-021",
+      "role": "Backend Developer",
+      "emailId": "GeraldZboncak@gmail.com",
+      "joiningDate": "31/09/2021"
+    },
+    {
+      "firstName": "Fidel",
+      "lastName": "Conner",
+      "empId": "LT-022",
+      "role": "Bussiness Analyst",
+      "emailId": "FidelConner@gmail.com",
+      "joiningDate": "31/09/2023"
+    },
+    {
+      "firstName": "Velva",
+      "lastName": "Fadel",
+      "empId": "LT-023",
+      "role": "Managing Director",
+      "emailId": "VelvaFadel@gmail.com",
+      "joiningDate": "01/09/2023"
+    },
+    {
+      "firstName": "Jayde",
+      "lastName": "Rogahn",
+      "empId": "LT-024",
+      "role": "Frontend Developer",
+      "emailId": "JaydeRogahn@gmail.com",
+      "joiningDate": "02/09/2023"
+    },
+    {
+      "firstName": "Annetta",
+      "lastName": "Friesen",
+      "empId": "LT-025",
+      "role": "FullStack Developer",
+      "emailId": "AnnettaFriesen@gmail.com",
+      "joiningDate": "10/09/2023"
+    },
+    {
+      "firstName": "Matteo",
+      "lastName": "Breitenberg",
+      "empId": "LT-026",
+      "role": "Managing Director",
+      "emailId": "MatteoBreitenberg@gmail.com",
+      "joiningDate": "12/09/2023"
+    },
+    {
+      "firstName": "Elliot",
+      "lastName": "Bayer",
+      "empId": "LT-027",
+      "role": "Team Lead",
+      "emailId": "ElliotBayer@gmail.com",
+      "joiningDate": "14/09/2023"
+    },
+    {
+      "firstName": "Priscilla",
+      "lastName": "VonRueden",
+      "empId": "LT-028",
+      "role": "Mern Developer",
+      "emailId": "PriscillaVonRueden@gmail.com",
+      "joiningDate": "16/09/2023"
+    },
+    {
+      "firstName": "Willy",
+      "lastName": "Casper",
+      "empId": "LT-029",
+      "role": "Managing Director",
+      "emailId": "WillyCasper@gmail.com",
+      "joiningDate": "10/10/2023"
+    },
+    {
+      "firstName": "Dorothy",
+      "lastName": "Emmerich",
+      "empId": "LT-030",
+      "role": "Frontend Developer",
+      "emailId": "DorothyEmmerich@gmail.com",
+      "joiningDate": "11/10/2023"
+    },
+    {
+      "firstName": "Kristine",
+      "lastName": "Quigley",
+      "empId": "LT-031",
+      "role": "Software Developer",
+      "emailId": "KristineQuigley@gmail.com",
+      "joiningDate": "02/08/2023"
+    },
+    {
+      "firstName": "Sasha",
+      "lastName": "Bergnaum",
+      "empId": "LT-032",
+      "role": "Testing Engineer",
+      "emailId": "SashaBergnaum@gmail.com",
+      "joiningDate": "31/08/2023"
+    },
+    {
+      "firstName": "Freeman",
+      "lastName": "Bogan",
+      "empId": "LT-033",
+      "role": "Testing Engineer",
+      "emailId": "FreemanBogan@gmail.com",
+      "joiningDate": "30/08/2023"
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Towne",
+      "empId": "LT-034",
+      "role": "Testing Engineer",
+      "emailId": "ElizabethTowne@gmail.com",
+      "joiningDate": "15/08/2023"
+    },
+    {
+      "firstName": "Minnie",
+      "lastName": "Zemlak",
+      "empId": "LT-035",
+      "role": "Testing Engineer",
+      "emailId": "MinnieZemlak@gmail.com",
+      "joiningDate": "20/08/2023"
+    },
+    {
+      "firstName": "Major",
+      "lastName": "Blanda",
+      "empId": "LT-036",
+      "role": "Bussiness Analyst",
+      "emailId": "MajorBlanda@gmail.com",
+      "joiningDate": "28/09/2023"
+    },
+    {
+      "firstName": "Simeon",
+      "lastName": "Mann",
+      "empId": "LT-037",
+      "role": "Bussiness Analyst",
+      "emailId": "SimeonMann@gmail.com",
+      "joiningDate": "02/10/2023"
+    },
+    {
+      "firstName": "Geraldine",
+      "lastName": "Frami",
+      "empId": "LT-038",
+      "role": "Bussiness Analyst",
+      "emailId": "GeraldineFrami@gmail.com",
+      "joiningDate": "28/09/2023"
+    },
+    {
+      "firstName": "Hilda",
+      "lastName": "Gusikowski",
+      "empId": "LT-039",
+      "role": "Managing Director",
+      "emailId": "HildaGusikowski@gmail.com",
+      "joiningDate": "31/09/2023"
+    },
+    {
+      "firstName": "Vena",
+      "lastName": "Marks",
+      "empId": "LT-040",
+      "role": "Mern Developer",
+      "emailId": "VenaMarks@gmail.com",
+      "joiningDate": "04/10/2023"
+    }
+  ]
+}
