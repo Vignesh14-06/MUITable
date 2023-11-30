@@ -8,17 +8,15 @@ import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
 import Checkbox from "@mui/material/Checkbox";
-import axios from "axios";
 import eye from "./Images/eye.svg";
 import pencil from "./Images/edit-2.svg";
 import deleteIcon from "./Images/arrow-circle-down Copy 2.svg";
 import "./employeestyle.css";
 
-const EmployeeTable = () => {
+const EmployeeTable = ({data,headCells,selectedId}) => {
   const [order, setOrder] = React.useState("asc");
   const [orderBy, setOrderBy] = React.useState("calories");
   const [selected, setSelected] = React.useState([]);
-  const [data, setData] = React.useState([]);
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
@@ -28,48 +26,9 @@ const EmployeeTable = () => {
     setOrderBy(property);
   };
 
-  React.useEffect(() => {
-    apiData();
-  }, []);
+ 
 
-  const apiData = async () => {
-    let response = await axios.get("http://localhost:8000/employeeDetail");
-    setData(response.data);
-  };
-  console.log(data, "data");
 
-  const headCells = [
-    {
-      id: "firstName",
-      label: "Employee Name",
-      width: "250px",
-    },
-    {
-      id: "empId",
-      label: "Employee ID",
-      width: "200px",
-    },
-    {
-      id: "role",
-      label: "Role",
-      width: "200px",
-    },
-    {
-      id: "email",
-      label: "Email",
-      width: "250px",
-    },
-    {
-      id: "joiningDate",
-      label: "Joining Date",
-      width: "100px",
-    },
-    {
-      id: "actions",
-      label: "Actions",
-      width: "100px",
-    },
-  ];
 
   function EnhancedTableHead(props) {
 
@@ -83,7 +42,7 @@ const EmployeeTable = () => {
               width={headCell.width}
               style={{ fontWeight: "700" }}
             >
-              {headCell.label}
+              {headCell.title}
             </TableCell>
           ))}
         </TableRow>
@@ -92,22 +51,21 @@ const EmployeeTable = () => {
   }
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
-    console.log(page, "page");
   };
 
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(event.target.value);
     setPage(0);
   };
-  const handleSelectAllClick = (event) => {
-    if (event.target.checked) {
-      const newSelected = data.map((n) => n.firstName);
-      console.log(newSelected, "newSelected");
-      setSelected(newSelected);
-      return;
-    }
-    setSelected([]);
-  };
+  // const handleSelectAllClick = (event) => {
+  //   if (event.target.checked) {
+  //     const newSelected = data.map((n) => n.name);
+  //     console.log(newSelected, "newSelected");
+  //     setSelected(newSelected);
+  //     return;
+  //   }
+  //   setSelected([]);
+  // };
   const handleClick = (event, name) => {
     const selectedIndex = selected.indexOf(name);
     let newSelected = [];
@@ -134,7 +92,7 @@ const EmployeeTable = () => {
             numSelected={selected.length}
             order={order}
             orderBy={orderBy}
-            onSelectAllClick={handleSelectAllClick}
+            // onSelectAllClick={handleSelectAllClick}
             onRequestSort={handleRequestSort}
             rowCount={data.length}
           />
@@ -142,18 +100,18 @@ const EmployeeTable = () => {
             {data
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row, index) => {
-                const isItemSelected = isSelected(row.firstName);
+                const isItemSelected = isSelected(row);
+                selectedId(selected);
                 const labelId = `enhanced-table-checkbox-${index}`;
-                console.log(isItemSelected, "isItemSelected");
 
                 return (
                   <TableRow
                     hover
                     role="checkbox"
-                    onClick={(event) => handleClick(event, row.firstName)}
+                    onClick={(event) => handleClick(event, row )}
                     aria-checked={isItemSelected}
                     tabIndex={-1}
-                    key={row.firstName}
+                    key={row.name}
                     selected={isItemSelected}
                     sx={{ cursor: "pointer" }}
                   >
@@ -165,7 +123,7 @@ const EmployeeTable = () => {
                           "aria-labelledby": labelId,
                         }}
                       />
-                      {`${row.firstName} ${row.lastName}`}
+                      {row.name}
                     </TableCell>
                     <TableCell align="start">{row.empId}</TableCell>
                     <TableCell align="start">{row.role}</TableCell>
@@ -185,7 +143,7 @@ const EmployeeTable = () => {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[5, 10, 20]}
+        rowsPerPageOptions={[5,10,20]}
         component="div"
         count={data.length}
         rowsPerPage={rowsPerPage}
